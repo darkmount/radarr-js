@@ -1,0 +1,20 @@
+{
+    "presets": [
+        "flow",
+        [
+            "env",
+            {
+                "modules": false,
+                "targets": {
+                    "node": 6
+                }
+            }
+        ]
+    ],
+    "plugins": [],
+    "env": {
+        "test": {
+            "presets": ["flow", ["env"]]
+        }
+    }
+}
